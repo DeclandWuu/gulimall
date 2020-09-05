@@ -40,6 +40,7 @@ public class MemberStatisticsInfoController {
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = memberStatisticsInfoService.queryPage(params);
 
+
         return R.ok().put("page", page);
     }
 
