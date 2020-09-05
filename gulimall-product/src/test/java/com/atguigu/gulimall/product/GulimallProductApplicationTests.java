@@ -15,7 +15,7 @@ class GulimallProductApplicationTests {
 	@Test
 	void contextLoads() {
 		PmsBrandEntity pmsBrandEntity = new PmsBrandEntity();
-		pmsBrandEntity.setName("搞心态");
+		pmsBrandEntity.setDescript("傻逼吧都");
 		pmsBrandEntity.setBrandId(1L);
 		pmsBrandService.updateById(pmsBrandEntity);
 	}
